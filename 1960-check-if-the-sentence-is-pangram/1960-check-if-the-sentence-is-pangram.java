@@ -1,9 +1,15 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
-       HashMap<Character,Integer> map= new HashMap<>();
-        for(int i=0;i<sentence.length();i++){
-            map.put(sentence.charAt(i),1);
-        }
-        return map.size()==26;
+       
+       if(sentence.length()<26){
+           return false;
+       }
+
+       for(char c='a'; c<='z'; c++){
+           if(!sentence.contains(c+"")){
+               return false;
+           }
+       }
+       return true;
     }
 }
