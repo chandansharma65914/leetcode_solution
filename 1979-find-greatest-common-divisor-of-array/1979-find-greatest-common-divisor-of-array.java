@@ -3,10 +3,8 @@ class Solution {
            if(max%min==0){
                return min;
            }
-           int a = max%min;
-           int b= min;
-
-           return gofor(  a,b);
+           
+           return gofor( max%min,min);
     }
     public int findGCD(int[] nums) {
         int min=Integer.MAX_VALUE;
