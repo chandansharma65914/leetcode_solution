@@ -4,8 +4,8 @@ class Solution {
         int n=words.length;
         for(int i=0;i<n-1;i++){
             for(int j=i+1;j<n;j++){
-                StringBuilder sb= new StringBuilder(words[j]);
-                if(words[i].equals(sb.reverse().toString())){
+                
+                if(words[i].equals(new StringBuilder(words[j]).reverse().toString())){
                     count++;
                 }
             }
