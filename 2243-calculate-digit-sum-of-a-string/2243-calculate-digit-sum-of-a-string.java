@@ -1,13 +1,17 @@
 class Solution {
 
-    public static String gofor(String str, int k){
+   
+    public String digitSum(String s, int k) {
+          if( s.length()<=k){
+              return s;
+          }
         StringBuilder sb= new StringBuilder();
         int i=0;
         int count=0;
          int sum=0;
-        while(i  < str.length()){
+        while(i  < s.length()){
           
-           sum+= Character.getNumericValue(str.charAt(i));
+           sum+= Character.getNumericValue(s.charAt(i));
            count++;
            i++;
             if(count==k){
@@ -20,14 +24,6 @@ class Solution {
               sb.append(sum);
           }
            
-    
-        return sb.toString();
-    }
-    public String digitSum(String s, int k) {
-          
-            while(s.length()>k){
-                s= gofor(s,k);
-            }
-            return s;
+            return digitSum(sb.toString(),k);
     }
 }
