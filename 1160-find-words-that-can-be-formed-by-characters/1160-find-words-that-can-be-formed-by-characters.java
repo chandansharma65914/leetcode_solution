@@ -1,27 +1,27 @@
 class Solution {
-    public static Map<Character,Integer> give(String str){
-        Map<Character,Integer> map= new HashMap<>();
-        for(int i=0;i<str.length();i++){
-            map.put(str.charAt(i),map.getOrDefault(str.charAt(i),0)+1);
-        }
-        return map;
-    }
+   
     public int countCharacters(String[] words, String chars) {
         int ans=0;
-        Map<Character,Integer> map= give(chars);
-        for( String str :words){
-            boolean flag=true;
-            Map<Character,Integer> cmap= give(str);
-              for( var x : cmap.entrySet()){
-                  if(x.getValue()>map.getOrDefault(x.getKey(),0)){
-                      flag=false;
-                      break;
-                  }
-              }
-            if(flag){
-                ans+=str.length();
-            }
+        int [] carr= new int[26];
+        for(int i=0;i<chars.length();i++){
+            carr[chars.charAt(i)-'a']++;
         }
+        for(var str: words){          
+            if(check(str, carr)){
+                ans+= str.length();
+            }
+        }    
         return ans;
+    }
+    public static boolean check(String str , int[] arr){
+          int[] carr= new int[26];
+          for(int i=0;i<str.length();i++){
+              int x= str.charAt(i)-'a';
+              carr[x]++;
+              if(carr[x]>arr[x]){
+                  return false;
+              }
+          }
+          return true;
     }
 }
