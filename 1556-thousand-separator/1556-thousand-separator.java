@@ -13,6 +13,8 @@ class Solution {
                sb.insert(1,".");
                sb.insert(1,x);
                count=0;
+               
+               //add this
            }else{
              sb.insert(1,x);
            }
