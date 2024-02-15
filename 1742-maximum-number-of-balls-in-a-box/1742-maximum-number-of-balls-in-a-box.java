@@ -6,6 +6,8 @@ class Solution {
              int ans = 0;
         for (int i = lowLimit; i <= highLimit; i++) {
             int n = i;
+
+            //ljjojojo
             int key = 0;
             while (n > 0) {
                 key += n % 10;
