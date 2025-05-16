@@ -1,24 +1,27 @@
 class Solution {
-      public boolean checkPalin(String str){
-        int i=0;
-        int n= str.length();
-        int j=n-1;
-        while(i<j){
-            if(str.charAt(i)!=str.charAt(j)){
-                return false;
+    public boolean isPalindrome(String s) {
+            if(s.isEmpty()){
+                return true;
             }
-            i++;j--;
+        int  i=0;
+        int j=s.length()-1;
+
+        while(i<j){
+            char a= s.charAt(i);
+            char b= s.charAt(j);
+            if(!Character.isLetterOrDigit(a)){
+                    i++;
+            }else if(!Character.isLetterOrDigit(b)){
+                j--;
+            }else{
+                if(Character.toLowerCase(a)!=Character.toLowerCase(b)){
+                    return false;
+                }else{
+                    i++;
+                    j--;
+                }
+            }
         }
         return true;
-    }
-    public boolean isPalindrome(String abc) {
-        String s= abc.toLowerCase();
-        StringBuilder sb= new StringBuilder();
-        for( int i=0;i<s.length();i++){
-            if(Character.isLetterOrDigit(s.charAt(i))){
-                sb.append(s.charAt(i));
-            }
-        }
-        return checkPalin(sb.toString());
     }
 }
