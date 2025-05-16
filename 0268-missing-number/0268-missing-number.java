@@ -1,11 +1,15 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        Arrays.sort(nums);
-        for(int i=0;i<nums.length;i++){
-            if(i!=nums[i]){
-                return i;
-            }
+
+        int sum=0;
+        int n= nums.length;
+        
+        for(int i=0;i<=n;i++){
+            sum+=i;
         }
-        return nums.length;
+        for(int x : nums){
+            sum-=x;
+        }
+        return sum;
     }
 }
