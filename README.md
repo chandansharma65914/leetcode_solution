@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/chandansharma65914/leetcode_solution/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/chandansharma65914/leetcode_solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/chandansharma65914/leetcode_solution/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/chandansharma65914/leetcode_solution/tree/master/0053-maximum-subarray) |
@@ -16,6 +17,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/chandansharma65914/leetcode_solution/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chandansharma65914/leetcode_solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/chandansharma65914/leetcode_solution/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0268-missing-number) |
