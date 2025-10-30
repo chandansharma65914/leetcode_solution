@@ -57,6 +57,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/chandansharma65914/leetcode_solution/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chandansharma65914/leetcode_solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/chandansharma65914/leetcode_solution/tree/master/0125-valid-palindrome) |
 | [0287-find-the-duplicate-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0287-find-the-duplicate-number) |
@@ -79,6 +80,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/chandansharma65914/leetcode_solution/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/chandansharma65914/leetcode_solution/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
