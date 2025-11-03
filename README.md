@@ -11,6 +11,7 @@
 | [0035-search-insert-position](https://github.com/chandansharma65914/leetcode_solution/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/chandansharma65914/leetcode_solution/tree/master/0053-maximum-subarray) |
 | [0162-find-peak-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/chandansharma65914/leetcode_solution/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0287-find-the-duplicate-number) |
@@ -20,6 +21,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/chandansharma65914/leetcode_solution/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chandansharma65914/leetcode_solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0169-majority-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/chandansharma65914/leetcode_solution/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0268-missing-number) |
 ## Sliding Window
@@ -52,6 +54,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/chandansharma65914/leetcode_solution/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -74,6 +77,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/chandansharma65914/leetcode_solution/tree/master/0268-missing-number) |
 ## String Matching
 |  |
@@ -89,4 +93,8 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/chandansharma65914/leetcode_solution/tree/master/0206-reverse-linked-list) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/chandansharma65914/leetcode_solution/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
